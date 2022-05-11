@@ -1,20 +1,23 @@
 ﻿
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <!-- saved from url=(0014)about:internet -->
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
+
 <head>
-<title>New Item2</title>
-<meta name="GENERATOR" content="WinCHM">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<style>
-html,body { 
-	/* Default Font */
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11pt;
+<title>Simplest</title>
+<style type="text/css">
+.title{
+	font-size: large;
+	font-family: Verdana;
+	color: #000000;
+}
+.navigation{
+	font-size: x-small;
+	color: #008000;
 }
 </style>
-
 
 
 
@@ -35,7 +38,7 @@ html,body {
 function syn(){
 if(parent.nav.tree){
  if(parent.nav.tree.loaded){
-  parent.nav.tree.selectNode(2);
+  parent.nav.tree.selectNode(4);
  }else{
   setTimeout("syn()",500);
 }
@@ -45,7 +48,7 @@ if(parent.nav.tree){
 if(parent!=self){
   setTimeout("syn()",100);
 }else{
-  parent.location.href = "../index.htm?page=New_Item2.htm";
+  parent.location.href = "../../index.htm?page=template1/simplest.htm";
 }
 originalOnload = window.onload;
 if(originalOnload==null){
@@ -56,21 +59,34 @@ window.onload = function(){originalOnload();parent.contentLoaded = true;};
 </script> 
 
 
-<A href="New_Item1.htm">&lt;&lt;Previous</a> <A href="New_Item3.htm">Next&gt;&gt;</a><br>
+<A href="../New_Item3.htm">&lt;&lt;Previous</a> <br>
 <br>
 <em><span class="navigation">New Help &gt; Folder1 &gt; </span></em><br>
-<span class="title">New Item2</span><br>
+<span class="title">Simplest</span><br>
 <br>
 
-<P>asdfasdfasdfasdf</P>
-<P>阿斯顿发射点啊手动阀</P>
-<P>&nbsp;</P>
+
+($prev$) ($next$)<br>
+<br>
+<em><span class="navigation">New Help &gt; ($navigation$)</span></em><br>
+<span class="title">($title$)</span><br>
+<br>
+($content$)
 
 <br>
 
 <br>
 
-<A href="New_Item1.htm">&lt;&lt;Previous</a> <A href="New_Item3.htm">Next&gt;&gt;</a>
+($prev$) ($next$)
+
+
+
+<br>
+
+<br>
+
+<A href="../New_Item3.htm">&lt;&lt;Previous</a> 
 
 </body>
+
 </html>
